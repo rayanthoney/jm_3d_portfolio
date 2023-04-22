@@ -4,7 +4,7 @@
 <!-- link to project -->
     <a href='-URL TO DEMO GOES HERE-'>
     <!-- link to local image -->
-        <img src="src/assets/threejs2.gif" alt="" height="100%"/>
+        <img src="src/assets/3js_portfolio.gif" alt="" height="100%"/>
     </a>
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
@@ -34,9 +34,43 @@
 
 <br>
 
+## Technologies Used:
+
+Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write _something_. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+
+<br>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,react,vite,threejs,tailwind" />
+  </a>
+</p>
+
 ## How was this Built
 
 - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
 - React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
 - TailwindCSS - a popular utility-first CSS styling framework
 - Framer Motion - the most popular library used to bring your React website to life with animations
+
+<br>
+<br>
+
+```terminal
+ > npm create vite@latest ./ -- --template react
+```
+
+## Install Tailwind CSS
+
+> Install tailwindcss and its peer dependencies, then generate your tailwind.config.js and postcss.config.js files.
+
+```terminal
+ > npm install -D tailwindcss
+ > npx tailwindcss init -p
+```
+
+## Installing Your Packages
+
+```terminal
+  > npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+```
